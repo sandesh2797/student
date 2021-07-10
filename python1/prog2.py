@@ -1,0 +1,11 @@
+s="sandesh suryawanshi27"
+print(len(s))
+print(s[0:10:2])
+print(s[:20])
+print(s[:20:2 ])
+print(s[::30000])
+print(s[::-1])
+print(s.isalpha())
+print(s.endswith("as"))
+print(s.isupper())
+print(s.replace("sandesh","sandy"))
