@@ -1,7 +1,17 @@
-a=int(input("enter the a number"))
-b=int(input("enter the b number"))
-c=int(input("enter the c number"))
+u = ["B", "D", "A", "F", "C"]
 
-z=a+b+c/2
+y=[]
 
-print("the area of triangle is {0}".format(z))
+count=0
+
+while len(y)<len(u):
+
+    for i in u:
+
+        if ord(i)==count:
+
+            y.append(i)
+
+    count+=1
+
+print(y)
